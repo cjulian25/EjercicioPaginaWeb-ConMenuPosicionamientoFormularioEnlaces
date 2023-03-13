@@ -1,0 +1,137 @@
+/*CAMBIO DE FUENTE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+/*CONFIGURACION BODY Y HTML*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/13162091/pexels-photo-13162091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+/*HEADER Y NAV*/
+
+header {
+    background: rgb(82, 93, 81);
+    background: linear-gradient(90deg, rgba(82, 93, 81, 1) 8%, rgba(196, 89, 37, 1) 50%, rgba(82, 93, 81, 1) 77%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    color: white
+}
+
+header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div>div {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    background-image: url("https://www.logoscoop.com/wp-content/uploads/logo.png");
+    background-size: 100% 100%;
+    width: 80px;
+    height: 50px;
+}
+
+.icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    stroke-width: 0;
+    stroke: black;
+    fill: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+/*MENU*/
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    position: relative;
+    color: black;
+}
+
+.menu>li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu>li:hover {
+    background-color: gray;
+    color: white;
+}
+
+.menu li:nth-child(3):hover .submenu {
+    visibility: visible;
+}
+
+.submenu {
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    top: 40px;
+}
+
+.submenu li:hover {
+    background-color: gray;
+    color: white;
+}
+
+.submenu>li {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+
+/*MAIN*/
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+h2 {
+    border: solid 5px black;
+    background-color: white;
+    padding: 10px;
+}
