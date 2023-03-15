@@ -103,6 +103,10 @@ a:hover {
 
 .menu li:nth-child(3):hover .submenu {
     visibility: visible;
+    background-color: rgba(85, 81, 81, 0.651);
+    margin-left: -10px;
+    width: 110px;
+    border: solid 1px black;
 }
 
 .submenu {
@@ -142,6 +146,7 @@ a:hover {
     margin: 140px auto;
     width: 1000px;
     height: 2000px;
+    border-radius: 1%;
     background-color: rgba(122, 122, 122, 0.808);
 }
 
@@ -154,6 +159,7 @@ a:hover {
     margin: 7% 10% 0 10%;
     width: 80%;
     height: 22%;
+    border-radius: 7%;
     background-color: rgba(78, 78, 78, 0.808);
     overflow: hidden;
 }
@@ -184,6 +190,7 @@ a:hover {
     margin: 60% 10% 0 10%;
     width: 80%;
     height: 27%;
+    border-radius: 7%;
     background-color: rgba(78, 78, 78, 0.808);
     overflow: hidden;
 }
@@ -223,6 +230,7 @@ a:hover {
     margin: 122% 10% 0 10%;
     width: 80%;
     height: 33%;
+    border-radius: 7%;
     background-color: rgba(78, 78, 78, 0.808);
 }
 
